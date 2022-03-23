@@ -1,19 +1,21 @@
 public class sistemacarrito {
     public static void main(String[] args) {
+        AgregarCarrito();
 
-        for (int i = 0 ; i <= listaproductos.length; i++){
-            listaproductos[i] = 500 + (150 * (i));
-
-
-
-    }
 
 
 
     }
 
-    public static void MostrarCantitadProductos(){
-        System.out.println();
+
+
+    }
+    //metodo agregar al carrito
+    public static void AgregarCarrito(){
+        for (int i = 0 ; i < int listaproductos.length; i++) {
+            listaproductos[i] = numero_randomc;
+            System.out.println(i)
+        }
 
     }
 
@@ -27,5 +29,13 @@ public class sistemacarrito {
     public static  int Generarnum_productos(){
         int numero_randomp = (int)(Math.random()*15 );
         return numero_randomp;
+    }
+
+    //intento
+    public static int CalcularPrecioP() {
+        for (int i = 0 ; i <= listaproductos.length; i++){
+            listaproductos[i] = 150 * (i+1);
+            return
+
     }
 }
