@@ -8,8 +8,12 @@ public class sistemacarrito {
 
     }
 
-    // metodo muestra por pantalla cantidad de productos que contiene el carrito
-    //public static String MostrarC_productos (){
+
+
+    }
+
+    public static void MostrarCantitadProductos(){
+        System.out.println();
 
     }
 
